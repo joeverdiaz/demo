@@ -1,2 +1,13 @@
 ---
 # tasks file for create_users
+- group:
+    name: developers
+    
+- group:
+    name: admins
+
+- user:
+    name: test1
+    comment: My very first user
+    shell: /bin/bash
+    groups: admins, developers 
