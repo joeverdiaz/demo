@@ -1,5 +1,5 @@
 ---
-- hosts: testnode
+- hosts
   become: yes
 
   roles:
