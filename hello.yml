@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: testnode
   tasks:
     - name: Print Hello message
       debug: msg="Hello from Ansible server"
